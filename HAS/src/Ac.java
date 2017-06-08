@@ -19,4 +19,29 @@ public class Ac {
 		this.status=false;
 		System.out.println("ac is off");
 	}
+	void tempratureup()
+	{
+		if(this.status==true)
+		{
+		this.temprature=this.temprature+1;
+		System.out.println("channel is"+this.temprature);
+		}
+		else
+		{
+			System.out.println("ac is off" );
+		}
+	}
+
+	void tempraturedown()
+	{
+		if(this.status==true)
+		{
+		this.temprature=this.temprature-1;
+		System.out.println("channel is"+this.temprature);
+		}
+		else
+		{
+			System.out.println("ac is off" );
+		}
+	}
 }

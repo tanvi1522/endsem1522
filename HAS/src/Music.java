@@ -19,4 +19,13 @@ public class Music {
 		this.status=false;
 		System.out.println("music is off");
 	}
+	public void volumedown() {
+		// TODO Auto-generated method stub
+		
+	}
+	public void volumeup() {
+		// TODO Auto-generated method stub
+		
+	}
+	
 }
